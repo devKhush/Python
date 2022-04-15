@@ -1,0 +1,4 @@
+Multiplication Table of 19 : [19, 38, 57, 76, 95, 114, 133, 152, 171, 190]
+
+Multiplication Table of 16 : [16, 32, 48, 64, 80, 96, 112, 128, 144, 160]
+
