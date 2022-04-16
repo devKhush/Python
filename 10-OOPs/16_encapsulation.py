@@ -9,6 +9,8 @@ Its only actual effect is that from module_name import *  won't import variables
 with a single underscore.
 '''
 
+# Encapsulation is feature of preventing Data from direct access
+
 
 class Employee:
     company = "Google"

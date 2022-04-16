@@ -1,5 +1,9 @@
 # https://www.sololearn.com/learning/1073/2467/5125/1
 
+# Class is a blueprint for similar objects
+# Methods are function ties/ called form an object
+# Every instance in python (int, float, string, list, etc) is an object
+
 class Number:
     def sum(self):
         return self.a + self.b

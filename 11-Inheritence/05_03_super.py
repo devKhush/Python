@@ -52,6 +52,9 @@ class Programmer(Employee):
 # But in Python this does happens if constructors are not specifically defined (Default constructors present).
 # If constructors are defined by us, we have to call super().__init__() in the constructor of child class
 # super() can also be used to access Class attributes
+#
+# You can think that if __init__() (constructor) is not defined in child class, then it is also inherited from
+# parent class into the child class
 
 p = Person()
 p.takeBreath()
