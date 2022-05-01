@@ -18,5 +18,5 @@ for i in range(1, 51):
 # the below thread will runs only show() method in separate thread (as target is show())
 # Everything else in the program will be runned on parent thread (provided there are no more thread)
 # 'Target' is the task that thread will perform
-thread = threading.Thread(target=show())
+thread = threading.Thread(target=show)
 thread.start()

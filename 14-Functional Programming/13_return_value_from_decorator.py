@@ -4,8 +4,8 @@ def adder(anyFunction):
 
         print('*'*100)
         print('\t'*4, 'Welcome to Adder Calculator!')
-        sum = anyFunction(*args)
         print('*'*100)
+        sum = anyFunction(*args)
         return sum
 
     return wrapperFunction
