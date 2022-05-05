@@ -8,6 +8,8 @@
 # f = open('read_mode.txt', 'rt')
 f = open('09_01_read_mode.txt')
 
+fileName = f.name
+
 print('***********************************Full read Start***********************************')
 data = f.read()     # f.read() returns data in string format
 print(data)

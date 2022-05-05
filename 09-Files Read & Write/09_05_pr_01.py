@@ -13,3 +13,8 @@ print("'twinkle' is present") if 'twinkle' in text else print(
     "'twinkle' is not present")
 
 file.close()
+
+print()
+print('*'*100)
+for x in open('09_05_pr_01_poems.txt'):
+    print(x)
